@@ -1,0 +1,19 @@
+Certainly! Here's the final response reflecting the outlook for LLMs in financial analysis:
+
+### OUTLOOK
+
+**Six Months Outlook**
+With Google’s ‘Gemini Ultra’ model release, we'll see LLMs leap in capabilities, enhancing the foundational LLM/chatbot layer with sophisticated multimodal input handling: Gemini Ultra's achieved a higher score than GPT-4 in the MMMU benchmark, which assesses a range of capabilities. The main novelty of Gemini Ultra is to natively handle multiple types of data, including images, audio, and live video. This will improve data extraction from reports with better capabilities to read charts and tables, aiding in more comprehensive analysis while still requiring human oversight. It will also enable summarizing live events and TV reports.
+
+Google has also recently unveiled AlphaCode 2, powered by the Gemini AI model. AlphaCode 2 demonstrates notable advancements in coding capabilities and is particularly adept at handling complex mathematical and theoretical computer science challenges. It employs dynamic programming, a method of breaking down complex problems into simpler sub-problems, and utilizes a combination of policy models and a scoring model to generate and select the best code solutions.
+
+These new models will drive progress in valuation and risk modeling by LLM on their own. They are also expected to increase the capabilities of multi-agent systems including live data feed and ML models.
+
+However, in 6 months, most complex systems using agents will remain at the experimental stage, limiting the ability to automate an entire workflow. Besides, the nuanced understanding of market dynamics and design of disruptive scenarios will likely remain within the human analyst's domain.
+
+**2 Years Outlook**
+LLMs. Within 2 years however, more sweeping architectural innovations combining enlarged model sizes exceeding 5 trillion parameters (GPT5, Claude 3), novel training techniques, and high-quality curated datasets could plausibly result in LLMs exceeding average individual human cognitive capabilities across nearly all present professional benchmark tests, including finance.
+
+Fine-tuning. Current frontier models such as GPT4 are expected to be made available for fine-tuning and open-source models which can be trained for specific purposes are expected to reach the capabilities of current frontier LLMs. This is expected to drive down the cost of using LLMs for large-scale analysis.
+
+Feel free to ask any questions or suggest modifications regarding these insights!

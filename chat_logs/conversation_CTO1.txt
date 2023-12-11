@@ -1,0 +1,1508 @@
+user: hi
+assistant: Hello! I'm here to assist you in understanding the capabilities and limitations of chatbots powered by large language models (LLMs) in the context of financial analysis. Below is a summary of what these advanced systems can and cannot do. Please feel free to ask questions or suggest modifications after reading through this.
+
+---
+
+**SCOPE**  
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+**INTRODUCTION**  
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+**RESULTS AT EXAMS**  
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+**FUNDAMENTAL LIMITATIONS**  
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:  
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.  
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.  
+• Context Size Constraints: Even with ‘large’ context windows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.  
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.  
+• Difficulty to follow complex multi-steps directions compared to humans.  
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.  
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.  
+• While chatbots can produce text, they cannot execute actions (e.g., trading, etc.) without additional tools.
+
+**ABILITIES IN PRACTICE**  
+For finance-related use cases, they show strengths in:  
+• Reading text (from reports, news, research, etc.) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).  
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.  
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+**CONCLUSION**  
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+---
+
+Please ask if you have any specific questions about how LLMs can support your work in financial analysis or suggest any areas you think need further detail or clarification.
+user: Describe how the best chatbot fair at reading financial statements, calculating ratios and generating conclusions?
+assistant: LLM-powered chatbots like GPT-4 are highly proficient at parsing financial statements, provided those statements are given in textual format and are within the token limitations that the models can handle. They can read balance sheets, income statements, cash flow statements, and notes to the financial statements with a high level of language comprehension. However, their ability to interpret and analyze these documents is subject to certain limitations.
+
+**Reading Financial Statements:**  
+Chatbots powered by LLMs can read and comprehend the text of financial statements rapidly, recognizing key financial terms and concepts. They excel at extracting information like revenue figures, profit margins, and expenses reported in the documents.
+
+**Calculating Ratios:**  
+These chatbots can perform calculations involving basic arithmetic, which means they can calculate standard financial ratios such as the current ratio, debt-to-equity ratio, return on equity (ROE), and others, as long as the necessary data points are provided. They understand the formulas for these ratios and can explain the significance of the results in the context of financial analysis. 
+
+**Generating Conclusions:**  
+When it comes to drawing conclusions, LLM-powered chatbots can identify trends and make comparisons year-over-year or against industry benchmarks, as long as the relevant information is within the contextual window they can process. They can generate coherent and contextually relevant narratives around profitability, liquidity, solvency, and efficiency of a business based on the calculated ratios and extracted data points.
+
+However, there are notable constraints:
+
+1. **No Real-Time Processing:** They cannot handle live data feeds or dynamically updating spreadsheets.
+2. **Limited Statistical Analysis:** Their capabilities don't extend to advanced statistical modeling or inference that's often necessary for deeper financial analysis.
+3. **Contextual Limitations:** They may struggle with very long documents that exceed their token limits, potentially missing out on information that falls outside their immediate processing window.
+4. **Plausible Inaccuracies:** They may confidently generate conclusions based on the information they process, but without verification against real-time or updated data, inaccuracies can occur.
+5. **Reading Literal Charts/Graphs:** Visual representations of data in charts and graphs are beyond their current capacity for interpretation, as they are designed to process text rather than images.
+
+In summary, frontier LLMs are valuable for initial parsing and basic ratio calculations, as well as generating articulate narrative reports that can serve as drafts or starting points for more in-depth analysis by financial professionals. They can significantly enhance productivity by handling routine analysis and summarization tasks that would otherwise consume a human analyst’s time. However, for now, they cannot replace the nuanced understanding, judgment, and advanced analytical capabilities of professional financial analysts. 
+
+If you have specific tasks in mind or further questions concerning practical applications within financial statement analysis, please let me know, and I can provide more detailed insights.
+user: Can they generate a NPV calculation model?
+assistant: Large Language Models (LLMs) like GPT-4 can assist in the generation of a textual framework or a descriptive blueprint for a Net Present Value (NPV) calculation model but cannot perform actual calculations that involve live data or create interactive spreadsheet models without integrating additional tools.
+
+Here is what LLMs can and cannot do in terms of NPV calculation:
+
+**Can Do:**
+- **Explaining the Concept:** They can thoroughly explain the concept of NPV, including its purpose, the meaning behind its components, and its significance in investment decision-making.
+- **Describing the Process:** They can detail the steps to perform an NPV calculation, including how to forecast cash flows, select an appropriate discount rate, and consider net cash flows over the period.
+- **Drafting a Formula:** They can write out the formula for NPV and explain each component of the formula.
+- **Pseudocode:** They can generate pseudocode or an algorithmic representation of how an NPV calculation model could be structured in software.
+
+**Cannot Do:**
+- **Performing Live Calculations:** LLMs cannot perform calculations using real-time data since they do not have the capability to process live or external datasets or interact with in-memory data tables.
+- **Running a Spreadsheet Model:** Without additional tools or software, LLMs aren't able to operate within spreadsheet software like Microsoft Excel or Google Sheets to calculate NPV.
+- **Analyzing Data Graphically:** They cannot plot or interpret graphical data presentations, which are often associated with financial modeling.
+- **Error Checking:** They do not have the inherent ability to check for errors in user-provided data, which is crucial for accurate NPV computations.
+
+To use an LLM for an NPV model, one would provide the basic framework and key parameters, such as projected cash flows, discount rate, initial investment, and the model's structure, which the user could then build upon using appropriate financial modeling tools and software.
+
+For practical use, financial analysts can employ LLMs to expedite the creation of textual explanations or guides for NPV models, which can be used in training, documentation, or as a precursor to developing a full-fledged financial model with actual data.
+
+If you have a specific scenario or additional details regarding the NPV calculation you're interested in, please let me know, and I can provide more personalized guidance.
+user: looks good
+assistant: Great! I'm glad the information provided was helpful. If you have any more questions, need further elaboration on any topic related to financial analysis and chatbots, or if you'd like to explore other ways LLMs may assist in your work, please don't hesitate to reach out. Happy to help with any queries or scenarios you have in mind!
+
+
+
+
+
+
+
+
+
+user: hi
+assistant: Hello! Here is the summary you requested:
+
+SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+- No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+- No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+- Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+- Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+- Difficulty to follow complex multi-steps directions compared to humans.
+- Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+- Reading limitations: Interpreting complex tables and charts continues to challenge them.
+- While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+- Reading text (from reports, news, research etc) almost immediately, in multiple languages, and at low cost ($0.1 to $1 per 150 pages).
+- Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+- Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+If you have any questions or would like to discuss how these capabilities could apply specifically to your financial analysis activities, please ask away or suggest modifications to tailor this information to your needs.
+user: ok
+assistant: Great! If you're curious about how these LLM-powered chatbots could help with your financial analysis work, or have specific use cases or scenarios in mind, feel free to bring them up. I'm here to help you explore the possibilities and limitations in that context. If you have any other concerns or points of discussion, don't hesitate to mention them as well.
+user: hi
+assistant: Hello! I see that you're interested in exploring the capabilities and limitations of chatbots powered by frontier LLMs in the context of financial analysis. Here's a summary for you:
+
+SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research, etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions you might have or suggest modifications as you see fit.
+user: hi
+assistant: Hello! Based on the summary provided, chatbots powered by frontier LLMs have a set of abilities and limitations in the context of financial analysis. Would you like to explore how these capabilities could apply to your work, or do you have specific questions or scenarios in mind where you're considering the use of a LLM-powered chatbot? Feel free to ask questions or suggest modifications.
+user: hi
+assistant: Hello again! How can I assist you today? If you're interested in discussing how Large Language Model (LLM) chatbots like GPT-4 could be used in financial analysis, or if you have any other questions or thoughts about LLMs, please let me know. I'm here to help!
+user: hi
+assistant: Hello! Here's a summary touching upon the current abilities and limitations of chatbots powered by frontier LLMs, with a focus on financial analysis activities:
+
+SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+- No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+- No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+- Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+- Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+- Difficulty to follow complex multi-steps directions compared to humans.
+- Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+- Reading limitations: Interpreting complex tables and charts continues to challenge them.
+- While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+- Reading text (from reports, news, research etc) almost immediately, in multiple languages, and at low cost ($0.1 to $1 per 150 pages).
+- Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+- Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+If you have any questions, need clarifications, or want to explore how you can leverage LLM chatbots in your financial analysis work, feel free to ask. I'm here to help you break it down and figure out the best approach for your needs.
+user: hi
+assistant: Hello! If you have any questions or wish to discuss how you might apply LLM-powered chatbots in your field of financial analysis, please feel free to reach out. I'm here to assist you in understanding the capabilities and considerations of using such technology in your work. Let me know how I can help!
+user: hi
+assistant: Hello! How can I assist you today with your financial analysis work in the context of chatbots powered by large language models (LLMs)? If you have any questions or need further clarification on how these technologies can be applied in your field, feel free to ask. Or if you'd like some modifications to our approach, please suggest them.
+user: hi
+assistant: Hello! How can I assist you today with your financial analysis work? If you have any questions about what can and cannot be done by chatbots powered by Large Language Models, or if you'd like to discuss how they might fit into your workflows, feel free to ask. I can also provide more details on any point of the summary I've just shared.
+user: hi
+assistant: Hello! It seems you're interested in exploring the capabilities of chatbots powered by Large Language Models (LLMs) in financial analysis. If you have any specific questions or need clarification on the summary provided, or if you want to dive into how these models can support your work in financial analysis, please go ahead and ask. I'm here to help guide you through the potential applications and limitations of LLMs in your field.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask questions, suggest modifications, or discuss how these capabilities and limitations might apply specifically to your financial analysis tasks.
+user: perform your work
+assistant: The summary provided outlines the capabilities and limitations of frontier large language models (LLMs) such as GPT-4 and Claude 2.1 when used in chatbots, specifically within the context of financial analysis activities.
+
+To help you form your view on the applications of chatbots powered by LLMs in your line of business, you should consider how these abilities and limitations align with your specific workflows and tasks. Understanding the outlined scope can guide you in determining where LLM chatbots can be beneficial and where they may fall short.
+
+For example, if your financial analysis processes involve the digestion of large volumes of text-based data, an LLM chatbot could significantly speed up the extraction of key information, sentiment analysis, and the translation of complex financial jargon into understandable language. Subsequently, for tasks that do not require real-time data analysis and where the context does not exceed the token limitations of these models, using an LLM chatbot can enhance efficiency.
+
+However, for activities that involve the interpretation of real-time financial data or complex quantitative analysis, the current limitations such as the lack of mathematical capabilities for deep statistical analysis and the inability to process live data streams would render LLM chatbots less helpful. Additionally, tasks that require human judgment, ethics, creativity, or physical reasoning should be approached with caution when considering the use of these chatbots.
+
+It's important to recognize these models' propensity for overconfidence; when integrating them into your workflow, setting up safeguards against acting on plausible but incorrect information is crucial.
+
+In summary, while LLMs can provide high-speed data processing and language understanding tasks that can augment or replace certain workflows, they are not yet a substitute for the nuanced, real-time decision-making capabilities of a seasoned financial analyst.
+
+If you have scenarios or use-cases in mind, please share them, and I can offer a more tailored analysis of how an LLM might handle those situations. This discussion can help refine how chatbots can become a useful tool in your financial analysis work.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions or suggest modifications regarding how chatbots powered by frontier LLMs can be applied in your financial analysis activities.
+user: perform your work
+assistant: Certainly! Based on the provided summary and background data, I can help clarify how LLM-powered chatbots can be utilized in financial analysis. If you have any specific questions about their capabilities, how they might assist with particular tasks, or have concerns about their limitations within the context of financial activities, please ask away. 
+
+In financial analysis, such chatbots can be particularly useful for tasks including, but not limited to:
+
+- Digesting lengthy financial reports and highlighting key information.
+- Conducting sentiment analysis on market news or financial disclosures.
+- Translating complex financial jargon into simpler terms.
+- Compiling summaries and insights from massive datasets that are articulated in natural language.
+
+However, it's essential to note that they're currently unable to handle live data processing, perform complex mathematical analysis, or execute trading actions without additional tools.
+
+Feel free to inquire further or discuss these applications or any other aspect of LLMs in financial analysis.
+user: perform your work
+assistant: I am ready to assist with any queries or applications related to the usage of LLM-powered chatbots within the field of financial analysis. You can ask for tasks like extracting key points from financial documents, interpreting financial news sentiments, simplifying financial terminology, or summarizing data insights.
+
+For example, I can help synthesize information from financial reports, predict market sentiment based on news analysis, explain financial concepts, and provide summaries of financial data. However, it's important to consider the limitations as previously mentioned, such as the inability to process real-time data or conduct deep quantitative analysis without additional tools.
+
+To proceed, please provide me with a specific request or task related to your line of business in financial analysis, and I will demonstrate how an LLM-powered chatbot can assist with that task. Do you need a summary of a financial report, an explanation of financial terms, sentiment analysis, or something else? Please specify your request.
+user: perform your work
+assistant: To demonstrate the capabilities of an LLM-powered chatbot in the context of financial analysis, I'll need a specific task or prompt from you. Here are some tasks I can perform based on your needs:
+
+1. Text Mining: If you provide financial reports, news articles, or research papers, I can extract key information, identify trends, forecast opinions, or analyze the financial health of entities.
+   
+2. Sentiment Analysis: Given financial news or social media posts, I can assess the sentiment and provide insights that might be helpful for market prediction or investment decisions.
+   
+3. Natural Language Understanding (NLU): I can offer explanations of financial jargon, helping to make complex financial concepts more accessible.
+   
+4. Data Analysis: With natural language data, I can summarize key points, generate insights, and even provide analysis within the given context limitations.
+
+For a practical demonstration, please provide me with a specific text input, question, or data set, and I will show you how an LLM-powered chatbot like me can assist with financial analysis tasks. If you have any financial statements, market news, or analysis questions, share them, and I will work on those accordingly.
+user: perform your work
+assistant: SUMMARY:
+“SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.”
+
+Please feel free to ask questions, provide comments, or suggest modifications regarding this summary.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask questions, provide your comments, or suggest modifications as needed.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask questions or offer feedback so that we can explore how this information pertains to your specific financial analysis activities.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask questions, suggest modifications, or discuss how these capabilities and limitations may impact your work in financial analysis.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+•	No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+•	No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+•	Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+•	Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+•	Difficulty to follow complex multi-steps directions compared to humans.
+•	Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+•	Reading limitations: Interpreting complex tables and charts continues to challenge them.
+•	While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+•	Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+•	Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+•	Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volumes of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask questions, provide your comments, or suggest modifications regarding this information.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and at low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.”
+
+Please feel free to ask any questions or suggest modifications as we delve into how chatbots powered by frontier LLMs can be utilized in your line of business within financial analysis.
+user: perform your work
+assistant: SUMMARY: 
+“SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+•	No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+•	No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+•	Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+•	Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+•	Difficulty to follow complex multi-steps directions compared to humans.
+•	Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+•	Reading limitations: Interpreting complex tables and charts continues to challenge them.
+•	While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+•	Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+•	Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+•	Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.”
+
+Feel free to ask questions or suggest modifications to better understand how LLMs could impact your specific financial analysis tasks.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+If you have any questions or if there's anything you would like to delve into further, please feel free to ask. I'm here to help clarify any points or explore other avenues in which these models could be beneficial or have limitations in the field of financial analysis.
+user: ok
+assistant: Great! Should you have any specific inquiries regarding how LLM-powered chatbots could impact financial analysis, want to explore hypothetical use cases, or discuss potential integrations into your current workflows, please don't hesitate to reach out. Additionally, if there are any aspects of the summary you'd like to adjust or elaborate on, just let me know. Your input is valuable in tailoring the discussion to your professional interests and needs.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask questions, suggest modifications, or discuss how these capabilities could specifically apply to your tasks in financial analysis.
+user: i think it's ok
+assistant: Great, if you think the summary captures the essence of what LLM-powered chatbots can and cannot do for financial analysis, we can proceed. If you have any specific scenarios or tasks within your line of business where you're considering the use of such chatbots, I can provide more detailed insights or guidance.
+
+Remember that the practical applications for your field could range from automating the initial draft of financial reports, parsing large documents for key information, summarizing market research, to assisting in preliminary data analysis (within the mentioned limitations).
+
+If any questions arise later or if there's a particular aspect of your financial analysis workflow you're curious about optimizing with AI, don't hesitate to reach out. How else may I assist you with your work in financial analysis today?
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Now, how can I assist you further? Feel free to ask questions or suggest modifications as we explore how LLM-powered chatbots could impact your work in financial analysis.
+user: yes
+assistant: Great, you've acknowledged the summary. Now, if there are specific aspects of your work in financial analysis where you're considering the use of chatbots powered by LLMs, or if you have any particular questions or scenarios in mind that you're curious about how these systems could handle, please share them with me. 
+
+I can provide insights on how LLMs may assist in those scenarios, considering their current abilities and limitations, and we can discuss if they would be suitable for your needs or where human intervention would still be paramount. What aspect of your financial analysis work are you interested in discussing?
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions or suggest modifications based on this summary regarding the applicability of chatbot technology in your line of financial analysis.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, powering chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+- No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+- No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+- Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+- Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+- Difficulty to follow complex multi-steps directions compared to humans.
+- Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+- Reading limitations: Interpreting complex tables and charts continues to challenge them.
+- While chatbots can produce text, they cannot execute actions (e.g., trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+- Reading text (from reports, news, research, etc.) almost immediately, in multiple languages, and at a low cost ($0.1 to $1 per 150 pages).
+- Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+- Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions, suggest modifications, or bring up specific scenarios in which you are interested in applying LLM-powered chatbots.
+user: sure
+assistant: Great! If you have any specific questions about how chatbots powered by large language models might interact with your financial analysis tasks, or if you want to explore possible implementations or theoretical scenarios within your business context, feel free to ask. I'm here to assist you in understanding the potential applications and considering how these tools could fit into your current workflow.
+user: perform your work
+assistant: SUMMARY: 
+“SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+•	No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+•	No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+•	Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+•	Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+•	Difficulty to follow complex multi-steps directions compared to humans.
+•	Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+•	Reading limitations: Interpreting complex tables and charts continues to challenge them.
+•	While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+•	Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+•	Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+•	Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.”
+
+Please feel free to ask any questions or suggest modifications regarding this summary as it relates to your field of financial analysis.
+user: i think what more can i ai do?
+assistant: Building on the current capabilities of LLM-powered chatbots like GPT-4 and Claude 2.1, there are several areas where AI can be particularly useful in the field of financial analysis:
+
+1. **Data Collection and Preprocessing**: While they cannot access real-time data independently, chatbots can assist in gathering and pre-processing historical financial data from various sources, provided that the data is within the chatbot's accessible range or has been inputted into the conversation.
+
+2. **Trend Identification**: By analyzing text data such as news articles, market commentaries, and research reports, LLM-powered chatbots can help identify trends and sentiment that may affect the financial markets.
+
+3. **Narrative Generation**: AI can create coherent narratives around financial data, integrating quantitative information into easy-to-understand reports that highlight key financial metrics and performance indicators.
+
+4. **Market Summaries**: They can generate summaries of market movements, offering quick digestible insights. This can be especially handy for staying up-to-date with a broad range of information.
+
+5. **Educational Content**: For those new to financial analysis, chatbots can provide educational content and resources, helping users understand complex financial concepts and jargon.
+
+6. **Scenario Analysis**: Chatbots can construct detailed scenarios based on historical data and identified trends, though this requires careful framing of questions and interpretation by a finance professional due to their lack of real-time data processing and advanced quantitative analysis.
+
+7. **Compliance and Regulation**: By keeping abreast of the latest regulatory texts and compliance guidelines, AI can assist in ensuring that financial analysis and reporting meet the required standards.
+
+8. **Language Translation**: LLMs can help overcome language barriers by translating financial reports and documents, enabling cross-border analysis.
+
+9. **Automation of Repetitive Tasks**: Routine tasks like data entry, report formatting, and preliminary analysis can be automated, thus freeing up time for more complex analysis.
+
+10. **Customer Interaction and FAQs**: In consumer-facing roles, AI can provide instant responses to frequently asked questions, enhancing the customer service experience.
+
+However, there is a caveat; while LLMs exhibit strengths in these areas, leveraging their full potential requires human oversight to guide their use, interpret their outputs correctly, and mitigate limitations such as context understanding constraints, potential biases, and the need for up-to-date information. Financial analysts need to rigorously validate AI-generated insights with real-world data and professional expertise.
+
+Please let me know if you have specific use cases or tasks in mind, or if there are particular aspects of AI application in financial analysis you wish to explore further.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+If you have any questions or require further clarification, feel free to ask, or suggest modifications based on your needs in the field of financial analysis.
+user: ok
+assistant: Great! Now that you've had a chance to review the summary of the current abilities and limitations of frontier LLMs used in chatbots, specifically in the context of financial analysis activities, feel free to ask any questions you might have, or suggest any modifications if necessary. How can I assist you further with your line of business in financial analysis?
+user: perform your work
+assistant: SUMMARY:
+“SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.”
+
+Feel free to ask any questions you have or suggest modifications based on your needs in financial analysis.
+user: ok
+assistant: It looks like you've got a grasp of the information provided in the summary. If you have any specific questions about how chatbots powered by LLMs (like GPT-4 or Claude 2.1) could potentially impact or be utilized in your financial analysis work, or if you're considering modifications or additional applications within your field, please feel free to discuss them. Whether it's about integrating these models into your existing workflows, understanding their potential applications in depth, or discussing strategies to mitigate their limitations, I'm here to help you explore the possibilities.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask questions or suggest modifications.
+user: ok, no need for anything, looks good
+assistant: Great, should you have any future inquiries or require assistance with specific financial analysis tasks where a chatbot powered by an LLM might be useful, don't hesitate to reach out. Good luck with your work in financial analysis!
+user: perform your work
+assistant: SUMMARY: 
+“SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+INTRODUCTION 
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities. 
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+•	No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+•	No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+•	Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+•	Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+•	Difficulty to follow complex multi-steps directions compared to humans.
+•	Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+•	Reading limitations: Interpreting complex tables and charts continues to challenge them.
+•	While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+•	Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+•	Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+•	Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.”
+
+Please feel free to ask any questions or suggest modifications as we discuss how this relates to your financial analysis activities.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with 'large' context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+If you have any questions or would like to suggest modifications based on your specific needs in financial analysis, please let me know, and I'd be glad to assist you.
+user: yes, its correct
+assistant: Great, I'm glad you confirm that the summary aligns with your understanding of frontier LLMs and their capabilities. If you have specific aspects of using such LLM-powered chatbots in your financial analysis work that you'd like to explore, or if you wish to discuss potential applications or concerns in more detail, please feel free to ask. Your questions or scenarios can help us delve deeper into how these technologies can support or integrate into your business processes.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+
+- No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+- No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+- Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+- Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+- Difficulty to follow complex multi-steps directions compared to humans.
+- Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+- Reading limitations: Interpreting complex tables and charts continues to challenge them.
+- While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+
+- Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+- Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+- Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Now that you've read the summary, feel free to ask any questions or suggest modifications related to LLM-powered chatbots in the field of financial analysis based on the context provided or your own requirements.
+user: ok great
+assistant: Excellent, I'm glad the summary provided is clear. If you have any specific scenarios, use cases, or applications in your line of business where you think LLMs might be applicable or you need further clarification on how they might be used or integrated, please let me know. Remember, even with their limitations, LLMs can be powerful tools for tasks like sentiment analysis, report summarization, and basic data analysis. How to best leverage these capabilities depends on the specifics of your workflow and goals. 
+
+If there's anything you'd like to explore or any aspect of LLMs you wish to discuss further, feel free to continue the conversation.
+user: perform your work
+assistant: Hello, expert in finance analysis!
+user: hi
+assistant: Hi there! How can I help you today?
+user: perform your work
+assistant: Welcome, savvy financial analyst!
+user: ji
+assistant: Hello, esteemed number cruncher!
+user: perform your work
+assistant: Hello, financial expertise valued!
+user: hi
+assistant: Hello there! How can I assist you today?
+user: perform your work
+assistant: Welcome, savvy finance expert!
+user: hi
+assistant: Hello there! How can I assist you today?
+user: perform your work
+assistant: Analyze data, drive growth.
+user: hi
+assistant: Hello, financial expert!
+user: perform your work
+assistant: Welcome, insightful financial expert!
+user: hi
+assistant: Hello! How can I assist you today?
+user: perform your work
+assistant: Hello, esteemed financial analyst!
+user: hi
+assistant: Hi there! How can I assist you today?
+user: perform your work
+assistant: Hello, exceptional financial analysis awaits!
+user: hi
+assistant: Hello there! How can I assist you today?
+user: perform your work
+assistant: Analyzing numbers, creating wealth.
+user: ok
+assistant: Hello, expert in fiscal strategy!
+user: perform your work
+assistant: Hello proficient financial strategist!
+user: ok
+assistant: If you have any questions or need assistance, feel free to ask. Have a great day!
+user: give me spelling of apple in 3 words
+assistant: A-P-L
+user: perform your work
+assistant: Welcome, astute financial expert!
+user: ok
+assistant: If you need any financial analysis assistance or have any questions, feel free to ask!
+user: gmail in 2 words
+assistant: Email platform.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions, provide comments, or suggest modifications if you need additional clarification or if you have specific aspects of financial analysis in mind that you'd like to discuss.
+user: Describe how the best chatbot fair at reading financial statements, calculating ratios and generating conclusions?
+assistant: When considering the abilities of the best chatbots powered by frontier LLMs such as GPT-4, here's how they fare in financial statement analysis:
+
+1. Reading Financial Statements: Frontier LLMs can quickly read and comprehend the text within financial statements, recognizing key terminologies and sections such as income statements, balance sheets, and cash flow statements. They can identify and pull out specific data points mentioned in the text, such as revenue, profit margins, or debt levels. These models can process text from financial statements in various languages, provided that the language is one that the model has been trained on.
+
+2. Calculating Ratios: Chatbots can calculate basic financial ratios if the necessary figures are provided or can be easily located in a text passage. For example, they can calculate the price-to-earnings (P/E) ratio, return on equity (ROE), or debt-to-equity ratio if they can identify or are given the net income, shareholders' equity, market capitalization, total debt, and other required values. However, their capability is limited to arithmetic calculations, and they may struggle with more complex, derived calculations that require specific domain knowledge or multi-step processes not explicitly stated.
+
+3. Generating Conclusions: LLM-powered chatbots can generate textual conclusions based on the data and information provided to them. They can summarily interpret ratios and financial data to a certain extent—such as indicating whether a high P/E ratio might suggest a company is overvalued or that a strong ROE indicates effective management—by leveraging patterns they've learned during training. However, these conclusions are based solely on the data provided in the conversation and generic knowledge. They do not represent a deep understanding of the company's unique context or market conditions.
+
+**Limitations:** Chatbot analyses are prone to several key limitations:
+- The LLM can't verify the accuracy of the data or check for the most recent updates, as it cannot access real-time data or external databases without additional tools.
+- Complex financial statements with nuanced notes and disclosures may challenge the model, especially as LLMs struggle with interpreting the implications of footnotes and contingent liabilities that rely on a deeper understanding of context.
+- LLMs might not detect errors or inconsistencies in the data provided, and their conclusions could be overly simplistic or fail to capture the multiplicity of factors at play in financial health.
+- Misinterpretation risks increase with the complexity and novelty of the analysis; for instance, LLMs might not handle well the evaluation of derivative instruments or off-balance-sheet entities.
+- The chatbot's 'overconfidence' can result in it providing a definitive-sounding answer that may be misleading or incorrect.
+
+In your role as a financial analyst, a frontier LLM chatbot could serve as a preliminary tool to streamline your workflow, such as initially parsing documents and performing basic calculations, but it would not replace the nuanced analysis, in-depth due diligence, and strategic decision-making that your expertise provides.
+
+Let me know if you need more detailed examples or have specific financial analysis scenarios in mind you'd like to discuss.
+user: Can they generate a NPV calculation model?
+assistant: Frontier LLMs such as GPT-4 have the capability to understand the concept of Net Present Value (NPV) and can outline the steps to create an NPV calculation model. However, there are a few nuances to consider:
+
+1. **Verbal Description**: The chatbot can provide a thorough explanation of what NPV is, the importance of discount rates, cash flows, and how they relate to the valuation of investment opportunities. It can verbally describe how to set up an NPV model as well.
+
+2. **Simple Calculations**: If provided with cash flows, a discount rate, and a specific time period, the chatbot can perform the basic arithmetic needed to calculate NPV for a simple scenario. For example, it could sum a series of manually provided net cash flows (inflows minus outflows) discounted back to their present value.
+
+3. **Step-by-Step Guide**: It may also be able to guide you through the process of setting up a more complex NPV model, explaining which variables you need, and how to structure the calculation, such as setting up the formula in a spreadsheet application.
+
+**Limitations**:
+- **Complex Financial Modeling**: Chatbots do not natively perform complex financial modeling. They can't create a dynamic spreadsheet that automatically calculates NPV; they can only describe how one might do so.
+- **Real-Time Data**: They cannot fetch or work with real-time financial data to feed into an NPV model. They rely on the user to provide accurate and current information.
+- **Use of Assumptions and Estimates**: NPV calculations often involve making assumptions about future cash flows, growth rates, and discount rates. While the chatbot can provide a general approach on how to consider these assumptions, a human's judgement is necessary to evaluate their reasonableness.
+- **Calculation Tools**: Without integration with external tools that can perform the actual calculations, chatbots can't execute or solve mathematical models independently; they can only describe the process.
+
+For instance, while a chatbot can articulate the formula for NPV:
+
+\[ NPV = \sum_{t=0}^{n} \frac{C_t}{(1 + r)^t} \]
+
+(Where \( C_t \) is the net cash inflow during the period t, r is the discount rate, and n is the number of periods)
+
+It might not be able to apply this formula correctly to complex or variable cash flow patterns without additional clarification from the user or without clarification of formulas converted to a calculation tool or programming language syntax.
+
+In a real-life scenario, a financial analyst would need to take the information provided by the chatbot and apply it in a spreadsheet or financial modeling software to compute the NPV, using their expertise to adjust the model appropriately for the nuances of their particular analysis.
+
+Feel free to ask more questions if you have specific requirements or if you would like to see a practical example within a hypothetical scenario.
+user: perform your work
+assistant: Certainly! Let's look at how we might leverage the abilities of frontier LLM-powered chatbots in the field of financial analysis, specifically concerning your workflows as an ESG analyst. 
+
+### Applying LLM-Powered Chatbots to ESG Analysis Workflows:
+
+**For Workflow 1: ESG Risk Assessment and Analysis**
+
+- **Assessing the impact of ESG factors:** Chatbots can ingest and process large volumes of text to extract relevant data points that you require for your analysis. While they may not directly assess the financial impact, they can certainly assist you in gathering necessary information quickly.
+  
+- **Scoring companies based on ESG practices:** While the LLMs may not be able to replace your judgment, they can help apply scoring systems based on criteria you provide. For example, you might set up a query that retrieves ESG data and automatically applies preliminary scoring, which you can then review and adjust as needed.
+  
+- **Determining financial materiality of ESG risks:** LLMs can identify mentions of material ESG risks in a vast array of documents. They can help you prioritize these risks by frequency or context of mentions, easing the qualitative part of materiality analysis.
+
+**Limitations:** Chatbots can't directly process live data, which is often necessary for real-time risk assessment. They also may not effectively model complex financial impacts without significant human oversight.
+
+**For Workflow 2: ESG Ratings and Reporting**
+
+- **Maintaining ESG ratings:** You could use chatbots to automate the update of qualitative information for your ESG ratings. They can swiftly process new reports or news articles that may influence a company's rating.
+  
+- **Drafting ESG reports:** Frontier LLMs are adept at generating coherent and comprehensive text. They can create first drafts of ESG performance reports based on inputs you provide, potentially saving considerable drafting time.
+  
+- **Preparing written summaries:** Summarization is a strength of these models. They can convert large documents into concise summaries, highlighting key points relevant to ESG outcomes.
+
+**Limitations:** While generating reports, chatbots may include factual inaccuracies and struggle with interpreting complex tables or charts. Human review is essential to ensure accuracy.
+
+It's important to understand that while chatbots can significantly speed up the analysis and reporting processes, they are not a replacement for the expert judgment and nuanced understanding that a skilled ESG analyst like you provides. Moreover, in the absence of real-time data processing and the ability to execute nuanced statistical analysis, the role of the analyst remains central to interpreting output, making informed judgments, and providing final ratings.
+
+Please share any specific tasks where you see potential for chatbot assistance, or if you have concerns or questions about applying this technology in your workflows, let's discuss those further.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+•   No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+•   No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+•   Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+•   Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+•   Difficulty to follow complex multi-steps directions compared to humans.
+•   Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+•   Reading limitations: Interpreting complex tables and charts continues to challenge them.
+•   While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+•   Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+•   Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+•   Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions you might have or suggest modifications that could help tailor this information to better suit your needs in the field of financial analysis.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask questions or suggest modifications as you see fit in the context of your expertise in financial analysis.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Now that you have the summary of the capabilities and limitations, you're welcome to ask any questions or suggest any modifications to this overview. How can I assist you further within the realm of financial analysis?
+user: Describe how the best chatbot fair at reading financial statements, calculating ratios and generating conclusions?
+assistant: Frontier LLMs like GPT-4, when functioning as the core of a chatbot, can perform quite impressively with text-based tasks such as reading financial statements, given the clarity and structured nature of such documents.
+
+**Reading Financial Statements:**
+A chatbot powered by a frontier LLM can quickly read and understand financial statements, which includes identifying key figures such as revenues, expenses, assets, and liabilities. They can extract this data from the text and recognize the context in which the numbers are presented. Whether it's an income statement, balance sheet, or cash flow statement, the chatbot can parse and digest the information presented in relatively clear and standardized formats. 
+
+**Calculating Ratios:**
+It can also calculate basic financial ratios if prompted correctly. For instance, if the user asks for the debt-to-equity ratio, and the relevant figures are within the chatbot's accessible context, it will be able to perform that calculation. The chatbot can handle simple arithmetic operations, such as dividing total liabilities by total shareholder equity, to arrive at this ratio. This applies to other common financial ratios such as return on assets (ROA), return on equity (ROE), and current ratio, among others.
+
+**Generating Conclusions:**
+When it comes to generating conclusions, the chatbot can identify trends or changes in financial performance over time by examining figures across different periods. The bot may also use common finance principles to comment on the health of the company's finances – for example, noting whether a high current ratio might indicate good short-term financial strength. However, it's important to note that any deeper analysis or interpretation, which would require understanding market conditions, correlating diverse data points, or making prognostications about future performance, would be beyond the scope of what LLMs are capable of without external data and advanced analytical abilities.
+
+While these chatbots can ingest and analyze the text of financial reports and perform calculations, their "conclusions" are still bound by the limitations of their training and lack the nuance that a human financial analyst may provide. They may stitch together coherent narratives from data and trends observed in the financial statements and could potentially identify outliers or significant changes in financial metrics. However, without real-world context and the ability to understand subtleties beyond the data, these conclusions can be somewhat surface-level and generic.
+
+It's also worth noting that the chatbot's conclusions are only as good as the data provided to it, and any sophisticated analysis requiring external data, complex judgment, or forecasting would require human oversight. Errors in data inputs would also affect the accuracy of the chatbot's outputs.
+
+For tasks that require nuanced judgment, creative thinking, a deep understanding of market conditions, or strategic insight, human analysts remain essential. The use of a chatbot in this context is best seen as a tool to enhance human capabilities by taking over manual, time-consuming tasks, leaving more time for higher-level analysis that fully leverages human expertise.
+
+If you're curious about specific functionalities or have any other questions about applying chatbots to financial analysis, feel free to ask for more details.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with 'large' context windows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions or suggest modifications as you see fit.
+user: Describe how the best chatbot fair at reading financial statements, calculating ratios and generating conclusions?
+assistant: Frontier LLM-powered chatbots exhibit a strong capability in reading text from financial statements, due to their significant advancements in natural language processing. They can quickly digest written content and identify key pieces of information such as revenues, net profits, liabilities, and equity figures. This allows them to extract pivotal data that could be used in ratio calculations and interpreting the financial health of a company.
+
+When it comes to calculating ratios, these chatbots can perform basic mathematical operations as long as they have access to the necessary numerical data. They can apply formulas to compute common financial ratios like the price-to-earnings (P/E) ratio, return on equity (ROE), debt-to-equity ratio, and others. They can also handle requests to compare these ratios to historical data or industry averages if such comparisons are explicitly described in the provided context.
+
+However, the limitation arises in the area of statistical analysis and advanced quantitative tasks that go beyond straightforward calculations. Chatbots are not inherently designed to perform complex financial modeling or engage with sophisticated predictive analytics without additional specialized tools or software.
+
+Generating conclusions is another task where frontier LLM-powered chatbots show promise. They are adept at summarizing information and can draft texts laying out the implications of financial metrics, suggesting positive or negative trends, and highlighting potential areas of concern or interest based on the data. Nevertheless, these conclusions are drawn from the chatbot's interpretation of the text, and are only as accurate as the provided data and the chatbot's ability to understand the context.
+
+The AI's generated conclusions should be treated with caution due to the potential for factual inaccuracies and the inability to understand nuanced financial knowledge that a seasoned financial analyst would possess. While they can provide a quick preliminary analysis, human expertise is crucial in reviewing, contextualizing, and validating the chatbot's output, especially for making high-stakes financial decisions.
+
+Please let me know if you have any more specific scenarios or tasks in mind where you'd like to understand the chatbot's performance or if there’s anything else you would like to discuss.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.”
+
+Please feel free to ask questions or suggest modifications as we explore how LLM-powered chatbots can be integrated into your financial analysis tasks.
+user: Describe how the best chatbot fair at reading financial statements, calculating ratios and generating conclusions?
+assistant: Frontier LLM-powered chatbots can perform the following tasks regarding financial statements, calculating ratios, and generating conclusions:
+
+1. Reading Financial Statements:
+Chatbots can read and process the text from financial statements almost instantaneously. They can identify key terms, figures, and sections within these statements, such as balance sheets, income statements, and cash flows. This allows them to quickly provide a user with the requested information from the document.
+
+2. Calculating Ratios:
+Chatbots can calculate basic financial ratios provided they are given or can reference the necessary data points. Examples of such ratios include the debt-to-equity ratio, the current ratio, the return on equity, and others. The bot would typically be able to take the figures or formulas you provide and calculate these ratios.
+
+3. Generating Conclusions:
+Based on the analysis of text within financial statements and calculated ratios, LLM-powered chatbots can generate conclusions or summaries. They can highlight trends, assess financial health, and possibly relate these findings to broader market conditions or standards within a given industry. They can offer insights like identifying whether a company’s profitability is improving, based on margin trends over time, or pointing out areas where liquidity may be a concern.
+
+Limitations to be aware of:
+- Despite their calculating capabilities, chatbots may not be able to handle very advanced or specialized financial analytics that require the processing of vast datasets or complex modeling without additional tooling.
+- The conclusions drawn are only as good as the data the bot has access to and are confined to the context provided. It cannot pull in external real-time data and cannot verify the accuracy against the most current events or trends without a human providing this context.
+- Interpretation of data is limited to the fiscal information given; it does not include broader economic indicators or market data unless that information is included within the context it has to work with.
+- Factual inaccuracies or outdated data can lead to incorrect or irrelevant conclusions if the bot does not have access to the latest accurate information.
+- They may have difficulty with highly nuanced or subjective analysis that typically requires human judgement and experience in the field.
+
+In practice, it's important to have a human financial analyst in the loop who can interpret the bot's outputs, add qualitative insights, and ensure accuracy before any information is used for decision-making purposes. Chatbots can certainly increase efficiency by handling initial data gathering and basic analysis but are not a complete substitute for a skilled financial analyst.
+
+Would you like to explore these capabilities further or do you have any specific scenarios you're curious about?
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask questions or suggest modifications as you see fit.
+user: Describe how the best chatbot fair at reading financial statements, calculating ratios and generating conclusions?
+assistant: Frontier LLM-powered chatbots, such as GPT-4, demonstrate proficiency in text-based operations, which includes reading financial statements. Given the structured and textual nature of financial statements, chatbots can read and extract key information effectively. Here's how they fare in specific tasks:
+
+1. Reading Financial Statements:
+Chatbots can parse through financial documents rapidly, extracting key data such as revenues, expenses, assets, liabilities, etc. Their ability to read and comprehend large volumes of text in different languages enables them to potentially handle multiple financial statements concurrently.
+
+2. Calculating Ratios:
+Chatbots can perform basic numerical calculations required for calculating financial ratios, such as profit margin, current ratio, or return on equity, by using the figures extracted from financial statements. They can apply formulae to compute these ratios if instructed explicitly. For example, if provided with the net income and revenue figures, a chatbot can calculate the profit margin by dividing net income by revenue.
+
+3. Generating Conclusions:
+Once they have read the financial statements and calculated key financial ratios, chatbots can generate text-based conclusions and insights. For instance, they can indicate whether a firm’s liquidity improved over time based on the current and quick ratios or discuss the trend in profitability or earning power based on changes in return on assets or equity.
+
+However, while LLM-powered chatbots can provide these functions, there are several limitations to consider:
+
+- They are not able to access or analyze real-time data without external tools, which means that they can only work with the data provided to them within the context of the conversation or uploaded documents.
+  
+- They may not correctly interpret more complex, nuanced financial indicators or the implications of such unless explicitly guided through structured prompts.
+  
+- Factual inaccuracies can occur, so conclusions generated should be double-checked against source data.
+  
+- They cannot perform deep statistical analysis or engage in predictive modeling without specialized capabilities beyond simple calculations.
+  
+- When dealing with very long financial statements, the context constraints of the chatbot may lead it to omit or misinterpret information if the entire text exceeds the token limit it can handle at once.
+
+In summary, LLM-powered chatbots can assist in the initial analysis by reading statements and calculating ratios, although their insights are limited to the information and instructions provided to them. Any conclusions need to be carefully reviewed by financial professionals, as the tools lack deep comprehension of economic contexts and cannot execute judgment-based analysis or predictive tasks on their own. Feel free to ask more questions, seek clarifications, or request specific examples if needed.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+---
+
+Please feel free to ask questions about how these abilities and limitations could impact your work in financial analysis, suggest modifications that you hope for in future iterations, or any other queries you might have.
+user: Describe how the best chatbot fair at reading financial statements, calculating ratios and generating conclusions?
+assistant: Frontier LLM-powered chatbots exhibit certain capabilities in understanding and working with financial statements, calculating ratios, and generating conclusions. Here's how they currently perform in these areas:
+
+Reading Financial Statements:
+Chatbots can quickly read and process text from financial statements, recognizing and extracting key figures such as revenue, profits, expenses, and cash flow numbers. They understand financial jargon and can parse through the qualitative parts of financial statements, such as management's discussion and analysis.
+
+Calculating Ratios:
+They can perform basic calculations, which means they can calculate standard financial ratios if the necessary data is provided. For example, if provided with the net income and shareholder's equity figures, they can calculate the return on equity (ROE). Ratios like debt-to-equity, current ratio, and quick ratio are within their scope of calculation, provided the requisite numbers from the balance sheet, income statement, or cash flow statement are available.
+
+Generating Conclusions:
+Chatbots can synthesize information from financial statements and use heuristics or pre-programmed knowledge to draw simple conclusions based on the data provided. They can, for instance, indicate whether a ratio suggests a strong or weak liquidity position, or if profit margins appear to be increasing or decreasing over time. Their conclusions are typically derived from pattern recognition and comparative analysis (e.g., historical data comparisons).
+
+It's important to note several limitations in this process:
+
+Real-Time Data Processing:
+Chatbots lack the ability to handle real-time data. Financial statements are often historical documents, but for real-time decision-making, such as trading or live financial advisory, they would not be suitable.
+
+Deep Quantitative Analysis:
+They do not have the capability to perform complex quantitative analysis that financial analysts can do using statistical software. They cannot formulate complex financial models or forecasts that depend on such advanced statistics and mathematical processing.
+
+Contextual Understanding:
+Their understanding of financial statements is text-based, which means they may struggle intensely with interpreting complex tables, footnotes, or charts often found in detailed financial documents.
+
+Accuracy and Overconfidence:
+Chatbots can confidently generate incorrect information. They might aggregate data points from financial statements correctly, but the conclusions they draw might not take into account nuances that a human analyst would consider, potentially leading to suboptimal or misleading insights.
+
+Execution Actions:
+While they can inform actions based on financial analysis, they cannot execute any decisions like trading or reallocation of funds without the use of additional tools.
+
+In summary, chatbots are useful for automating repetitive tasks, such as ratio calculations and basic data extractions from financial statements. However, for deep analysis, thoughtful interpretation, and strategizing based on complex financial data, a human financial analyst's skills are currently irreplaceable. Chatbots function best as a support tool, augmenting the capabilities of financial professionals by handling basic analyses and providing preliminary insights based on financial documentation.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+Please feel free to ask questions or suggest modifications if there is a specific aspect of financial analysis where you would like to explore the potential application of chatbots powered by LLMs.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT-4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT-4 failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context windows (128k tokens for GPT-4, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing large volume of documents to identify relevant insights, generating first draft of reports, supporting research, etc.
+
+If you have any questions, need further clarification, or would like to suggest modifications based on these insights, please feel free to do so.
+user: perform your work
+assistant: SCOPE
+This summary focuses on the current abilities and limitations of frontier LLM models used in chatbots (excluding additional tools and systems), in the context of financial analysis related activities.
+
+INTRODUCTION
+Large language models (LLMs) like GPT-4 and Claude 2.1 represent revolutionary AI systems, trained on vast data, power chatbots to converse via text with humans. Frontier LLMs like GPT-4 and Claude 2.1 demonstrate advanced reasoning and language capabilities, but still have limitations compared to human cognition and abilities.
+
+RESULTS AT EXAMS
+In specialized exams, frontier LLMs reveal remarkable language understanding and reasoning that meets and sometimes exceeds human performance. GPT4 scored 90% on the Uniform Bar Exam, while Claude ranked in the 93rd percentile on the Graduate Record Examination test (Analytical Writing, Verbal Reasoning, Quantitative Reasoning). However, GPT$ failed the CFA exam so far: it showed potential in certain areas but struggled with complex finance topics, especially in the Level II exam. Its performance was close to the estimated passing threshold under certain conditions but was not consistently above the passing mark.
+
+FUNDAMENTAL LIMITATIONS
+However, frontier LLMs used via chatbots demonstrate clear constraints versus humans:
+• No Real-Time Data: They cannot process or analyze live data, limiting usefulness in fast-changing finance settings.
+• No Quantitative Analysis: They lack the mathematical capabilities for statistical analysis expected in finance.
+• Context Size Constraints: even with ‘large’ context widows (128k tokens for GPT$, 200k tokens for Claude 2.1), performance drops when context exceeds 70k tokens (about 100 pages or 50k words), risking losing crucial details.
+• Factual Inaccuracies: Reality gaps mean they generate plausible but incorrect information much more frequently than humans.
+• Difficulty to follow complex multi-steps directions compared to humans.
+• Overconfidence: They attempt to answer questions beyond their competencies, rather than admitting ignorance.
+• Reading limitations: Interpreting complex tables and charts continues to challenge them.
+• While chatbots can produce text, they cannot execute actions (e.g. trading, etc.) without additional tools.
+
+ABILITIES IN PRACTICE
+For finance-related use cases, they show strengths in:
+• Reading text (from reports, news, research etc) almost immediately, in multiple languages, and a low cost ($0.1 to $1 per 150 pages).
+• Analysis: Assessing sentiment, pros & cons, applying scoring systems, extracting information, calculating basic ratios, comparing, summarizing key takeaways, etc.
+• Generating text: Processing volumes of text in multiple languages quickly and with no spelling mistakes, at low cost ($0.2 to $3 per 150 pages).
+
+CONCLUSION
+These abilities can be mobilized to augment (speed, scope) or replace tasks in several workflows related to financial analysis, such as consuming research to spotlight connections or drafting summaries, analyzing a large volume of documents to identify relevant insights, generating the first draft of reports, supporting research, etc.
+
+Please feel free to ask any questions you may have or suggest modifications to this summary to better fit your needs or understanding in the context of financial analysis.

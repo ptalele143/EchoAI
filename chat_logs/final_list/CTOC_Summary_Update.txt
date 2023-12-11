@@ -1,0 +1,30 @@
+###OUTLOOK OF AI SYSTEMS CAPABILITIES  
+
+**Six Months Outlook**  
+With Google’s ‘Gemini Ultra’ model release, we'll see LLMs leap in capabilities, enhancing the foundational LLM/chatbot layer with sophisticated multimodal input handling: Gemini Ultra's achieved a higher score than GPT-4 in the MMMU benchmark, which assesses a range of capabilities. The main novelty of Gemini Ultra is to natively handle multiple types of data, including images, audio and live video. This will improve data extraction from reports with better capabilities to read charts and tables, aiding in more comprehensive analysis while still requiring human oversight. It will also enable summarizing live events and TV reports.
+
+Google has also recently unveiled AlphaCode 2, powered by the Gemini AI model. AlphaCode 2 demonstrates notable advancements in coding capabilities and is particularly adept at handling complex mathematical and theoretical computer science challenges. It employs dynamic programming, a method of breaking down complex problems into simpler sub-problems, and utilizes a combination of policy models and a scoring model to generate and select the best code solutions.
+
+These new models will drive progress in valuation and risk modeling by LLM on their own. They are also expected to increase the capabilities of multi-agent systems including live data feed and ML models. However, in 6 months, most complex system using agents will remain at experimental stage, limiting the ability to automate an entire workflow. Besides, the nuanced understanding of market dynamics and design of disruptive scenarios will likely remain within the human analyst's domain.
+
+**2 Years Outlook**  
+LLMs. Within 2 years however, more sweeping architectural innovations combining enlarged model sizes exceeding 5 trillion parameters (GPT5, Claude 3), novel training techniques, and high-quality curated datasets could plausibly result in LLMs exceeding average individual human cognitive capabilities across nearly all present professional benchmark tests, including finance.
+
+Fine-tuning. Current frontier models such as GPT4 are expected to be made available for fine-tuning and open-source models which can be trained for specific purposes are expected to reach the capabilities of current frontier LLMs. This is expected to drive down the cost of using LLMs for large scale analysis. Specifically in financial analysis, this could enable reliable accuracy in most real-world reporting, valuation, forecasting, investment decision-making, risk assessment, and compliance contexts.
+
+Agents and multi-agent systems. Even more critically, the progress in the integration of agents and the deployment of multi-agent systems will enable the automation of complex multi-step processes and the development of 24/7 systems monitoring written and video news, processing real-time data and updating models in real time.
+
+But outlier cases needing advanced creative skills or versatile human judgment seem likely to remain the domain of human analysts.
+
+**5 Years Outlook**  
+In 5 years, LLMs demonstrating cognitive capabilities comparable to median human financial specialists across sectors like accounting, investments, insurance, banking, and advising appear achievable. Even relatively niche corners like tax optimization, complex securities structuring, and esoteric global regulations could see automation encroaching on human primacy.
+
+Machine advantages in computational speed, information accessibility, and disciplined analytical consistency may surpass individual financial experts across most domains enable the augmentation of most tasks. Current trajectory projections suggest LLMs could excel at certain financially-relevant capabilities like persuasive communication, deception detection, and predictive forecasting beyond levels individually attainable by even top professionals today.
+
+Progress in AI video generation and AI connection with robotics and VR will likely enable ‘autonomous agents’ to interact with humans in virtual or real environment, closing the gap between reality and science fiction.
+
+Multi-agent systems will incorporate very different skills, enabling the replacement of entire multi-disciplinary teams for standard workflows.
+
+But outlier gaps around the design of new workflows and systems, creative risk-taking, intuiting complex interconnections, establishing emotional bonds to do business, and applying versatile judgment seem likely to keep the most elite human practitioners securely valued.
+
+##END OF THE OUTLOOK
