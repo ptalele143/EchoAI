@@ -2,6 +2,7 @@ streamlit
 streamlit-option-menu
 openai
 pyyaml
+pypdf
 python-docx
 langchain
 python-dotenv
