@@ -38,7 +38,7 @@ def main_job_description_CTO1(conversation):
         return vectordb
 
     #PDF file uploaded by admin would be used
-    pdf_file_path = r"pdf_files\BACKGROUND INFO CTO-1.pdf"
+    pdf_file_path = r"pdf_files/BACKGROUND INFO CTO-1.pdf"
 
     pdf_file_names = ["BACKGROUND INFO CTO-1.pdf"]
 
